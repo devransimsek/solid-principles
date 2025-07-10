@@ -1,0 +1,21 @@
+{
+  "name": "solid-typescript-examples",
+  "version": "1.0.0",
+  "description": "This project demonstrates violations of the SOLID principles using TypeScript. Each folder contains:",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc --watch",
+    "dip": "node dist/DIP/good.js",
+    "isp": "node dist/ISP/good.js",
+    "lsp": "node dist/LSP/good.js",
+    "ocp": "node dist/OCP/good.js",
+    "srp": "node dist/SRP/good.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
