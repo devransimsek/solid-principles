@@ -3,7 +3,7 @@
 This project demonstrates violations of the SOLID principles using TypeScript. Each folder contains:
 
 - A `bad.ts` file showing a non-SOLID implementation.
-- Your job: Refactor each into a `good.ts` file with an explanation in `README.md`.
+- A `good.ts` file with an explanation in `README.md`.
 
 ## Principles Covered
 
